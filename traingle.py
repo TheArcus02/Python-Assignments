@@ -1,3 +1,27 @@
+"""
+You are given  points on a plane. You have to find two triangles:
+- one with the smallest area
+- one with the biggest area
+- The triangles cannot be degenerated (a degenerated triangle is formed by 3
+  colinear points, or when its area is equal to zero).
+
+Input Format
+The first line of input contains integer N.
+Each of the N following lines contains two space-separated
+integers xi, yi - the coordinates of i-th point.
+
+Constraints
+ 3 <= N <= 20
+-100 <= xi, yi <= 100
+
+Output Format
+Two space separated numbers:
+- the area of the triangle with the smallest area
+- the area of the triangle with the biggest area
+
+Do not round the results.
+"""
+
 def get_points():
     points_count = int(input(''))
 

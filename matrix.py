@@ -1,3 +1,24 @@
+"""
+You are given a matrix of letters M and string S.
+You have to check whether the matrix M contains the string S
+in its column or row (written in any direction).
+
+Input Format
+
+The first line of input contains two integers n and m.
+The seconds line of input contains string S.
+Each of the following n lines contains m letters.
+
+Constraints
+1<= m,n <= 30
+
+S and M will both contain only lowercase english letters.
+
+Output Format
+
+One line containing YES if string S is in M, NO otherwise.
+"""
+
 def get_inputs():
 
     lines_and_letters = input('')
