@@ -1,5 +1,5 @@
 def structure_solved(matrix: list[list[int]]):
-    size = len(matrix)
+    size = len(matrix[0])
     for row in matrix:
         nums_to_check = [x + 1 for x in range(size)]
         for col in row:
@@ -19,7 +19,7 @@ def check_if_solved(board: list[list[int]], size: int):
             columns[idx].append(num)
             if idx == row_idx:
                 diagonals[0].append(num)
-            if idx == abs(row_idx - size-1):
+            if idx == abs(row_idx - size+1):
                 diagonals[1].append(num)
     return structure_solved(board) and structure_solved(columns), "X" if structure_solved(diagonals) else False
 
