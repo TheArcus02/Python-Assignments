@@ -1,5 +1,22 @@
 """
+You are given an integer N.
+Consider all numbers that are written within it.
+For each possible length print the number,
+that occurred the most often
+(if there is a draw print the smallest one).
 
+Input Format
+
+One line containing integer N.
+
+Constraints
+1 <= len(N) <= 30
+
+N will not have zeroes in it.
+
+Output Format
+
+len(N) lines. -th line should contain the most frequent number of length i (if there is a draw print the smallest one).
 """
 
 

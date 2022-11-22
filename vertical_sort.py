@@ -1,3 +1,21 @@
+"""
+You are given n by m matrix with integers.
+Your task is to print this matrix with sorted (non-decreasing) columns.
+(You have to sort the numbers in each column).
+
+Input Format
+
+The first line of input contains two space-separated integers n and m.
+Each of the following  lines contains  space separated integers.
+
+Constraints
+1 <= n,m <= 50
+
+Output Format
+Print the matrix with sorted columns.
+"""
+
+
 def get_matrix():
     _, rows_count = (int(x) for x in input('').split(' '))
     matrix = []

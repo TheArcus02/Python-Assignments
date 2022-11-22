@@ -1,3 +1,31 @@
+"""
+Let us define 3 operations on a matrix:
+
+RR x - Reverse row x
+RC x - Reverse column x
+T - Transpose - change columns into rows - -th column (from top to bottom) becomes -th row (from left to right)
+You are given a n x m matrix M and k operations.
+You have to print the matrix obtained after performing all operation (in order they appear).
+
+Input Format
+
+First line of input contains two space separated integers m - number of rows and n - number of columns.
+Each of the m following lines contains  space separated integers.
+
+Then one line follows, that contains an integer k - the number of operations to perform.
+Each of the following k lines contains a string in one of the following forms: 'RR x', 'RC x', 'T', where x is an integer.
+
+Constraints
+1 <= n,m <= 50
+
+Each operation will be legal.
+
+Output Format
+
+Matrix after all transformations.
+"""
+
+
 def get_inputs():
     matrix_sizes = input('')
     matrix_sizes = matrix_sizes.split(' ')

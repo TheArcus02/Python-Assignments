@@ -1,3 +1,26 @@
+"""
+There is one white King and some number of black Rooks on the chessboard.
+White is making the move. What is the result of the game?
+
+Input Format
+
+Eight lines with 8 characters each. k denotes white king, w denotes black rook and o denotes empty field.
+
+Constraints
+
+There will be exactly one king and 0-63 rooks.
+
+Output Format
+
+Print the result of the game.
+
+mat if the king is under attack and cannot move to a safe field.
+
+pat if the king is NOT under attack, but cannot move to a safe field
+
+game goes on if king can move to a safe field
+"""
+
 def get_game_info(size: int):
 
     king_pos = (-1, -1)

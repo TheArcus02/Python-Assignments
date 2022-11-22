@@ -1,3 +1,26 @@
+"""
+You are given an N x N matrix with integers.
+An integer at position [i,j] represents knowledge level of given student.
+The student can pass the exam if his knowledge level is greater or equal to 3,
+or an average level of knowledge of students around him is greater or equal to 3.
+Student in corner has 3 neighbours, on the edge - 5, and in the middle 8.
+You have to determine which students can pass.
+
+Input Format
+
+The first line of input contains an integer N.
+Each of the following N lines contains N space-separated integers - the knowledge level of students.
+
+Constraints
+1 <= N <= 50
+
+Output Format
+
+Print N lines each containing N space separated numbers 0 or 1. 0
+means the student at this position will fail and 1 means he will pass.
+"""
+
+
 def get_matrix():
 
     matrix_size = int(input(''))
